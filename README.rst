@@ -16,7 +16,7 @@ Installation
 
 
 Uninstalling
-------------
+============
 
 Project can be uninstalled running ``pip uninstall pyXsurf`` or equivalent.
 
@@ -57,7 +57,7 @@ Please report bugs or feature requests, missing documentation,
 or open a issue on github https://github.com/vincenzooo/pyXsurf/issues.
 
 Acknowledgements
-============
+================
 
 The code in this library is the result of many years of work.
 Many colleagues from my current or former Institutions contributed
@@ -74,7 +74,7 @@ Citation
    :target: https://zenodo.org/badge/latestdoi/165474659
 
 License
-=========
+=======
 
 This project is Copyright (c) Vincenzo Cotroneo and licensed under
 the terms of the BSD 3-Clause license. See the licenses folder for
@@ -82,6 +82,6 @@ more information.
 
 
 Author
-=======
+======
 
 Vincenzo Cotroneo vincenzo.cotroneo@inaf.it
