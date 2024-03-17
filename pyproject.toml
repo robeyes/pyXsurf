@@ -14,6 +14,9 @@ dependencies = [
     "pytest",
     "testbook",
     "ipykernel",
+    # Graphics
+    'python-xlib ; platform_system == "Linux"',
+    'pywin32 ; platform_system == "Windows"',
 ]
 
 [project.optional-dependencies]
