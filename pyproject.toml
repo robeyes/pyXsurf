@@ -14,11 +14,10 @@ dependencies = [
     "pytest",
     "testbook",
     "ipykernel",
-    "sphinx",
 ]
 
 [project.optional-dependencies]
-# dev = ["pytest", "testbook", "ipykernel", "sphinx"]
+# dev = ["pytest", "testbook", "ipykernel"]
 
 
 [tool.setuptools]
