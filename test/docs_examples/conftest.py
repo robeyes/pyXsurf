@@ -5,7 +5,7 @@ import pytest
 
 @pytest.fixture(scope="module")
 def examples_path(project_root: Path):
-    return project_root / "docs" / "source" / "examples"
+    return project_root / "docs" / "examples"
 
 
 @pytest.fixture(scope="module")
