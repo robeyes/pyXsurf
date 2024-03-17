@@ -14,14 +14,13 @@ dependencies = [
     "pytest",
     "testbook",
     "ipykernel",
-    "sphinx",
     # Graphics
     'python-xlib ; platform_system == "Linux"',
     'pywin32 ; platform_system == "Windows"',
 ]
 
 [project.optional-dependencies]
-# dev = ["pytest", "testbook", "ipykernel", "sphinx"]
+# dev = ["pytest", "testbook", "ipykernel"]
 
 
 [tool.setuptools]

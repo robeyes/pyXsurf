@@ -1,0 +1,4 @@
+sphinx
+sphinx_automodapi
+nbsphinx
+myst_parser

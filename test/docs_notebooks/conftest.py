@@ -7,7 +7,7 @@ import pytest
 
 @pytest.fixture(scope="module")
 def notebooks_path(project_root):
-    notebooks_dir = project_root / "docs" / "source" / "notebooks"
+    notebooks_dir = project_root / "docs" / "notebooks"
     with patch.dict(os.environ, {"PYXSURF_NOTEBOOKS_PATH": str(notebooks_dir)}):
         yield notebooks_dir
 
