@@ -14,7 +14,7 @@ import pathlib
 import sys
 
 this_path = pathlib.Path(__file__)
-project_root = this_path.parent.parent.parent.absolute()
+project_root = this_path.parent.parent.absolute()
 project_src = project_root / "pyXsurf"
 
 # according to below and https://sphinx-rtd-tutorial.readthedocs.io/en/latest/sphinx-config.html
